@@ -1,0 +1,50 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName UP-TO-DATE
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-02-14T01:39:30.494+05:30  INFO 5788 --- [finflow] [           main] com.company.finflow.FinflowApplication   : Starting FinflowApplication using Java 17.0.18 with PID 5788 (C:\Users\Hp\Desktop\Financial Workflow Automation Platform\finflow\build\classes\java\main started by Hp in C:\Users\Hp\Desktop\Financial Workflow Automation Platform\finflow)
+2026-02-14T01:39:30.499+05:30  INFO 5788 --- [finflow] [           main] com.company.finflow.FinflowApplication   : The following 1 profile is active: "dev"
+2026-02-14T01:39:32.075+05:30  INFO 5788 --- [finflow] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-14T01:39:32.204+05:30  INFO 5788 --- [finflow] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 6 JPA repository interfaces.
+2026-02-14T01:39:33.552+05:30  INFO 5788 --- [finflow] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-14T01:39:33.568+05:30  INFO 5788 --- [finflow] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-14T01:39:33.569+05:30  INFO 5788 --- [finflow] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-02-14T01:39:33.666+05:30  INFO 5788 --- [finflow] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-14T01:39:33.669+05:30  INFO 5788 --- [finflow] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3098 ms
+2026-02-14T01:39:33.975+05:30  INFO 5788 --- [finflow] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-14T01:39:34.481+05:30  INFO 5788 --- [finflow] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b4b8199
+2026-02-14T01:39:34.487+05:30  INFO 5788 --- [finflow] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-14T01:39:34.719+05:30  INFO 5788 --- [finflow] [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-02-14T01:39:34.720+05:30  INFO 5788 --- [finflow] [           main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-02-14T01:39:34.720+05:30  INFO 5788 --- [finflow] [           main] o.f.c.internal.license.VersionPrinter    : 
+2026-02-14T01:39:34.771+05:30  INFO 5788 --- [finflow] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5433/finflow_dev (PostgreSQL 18.1)
+2026-02-14T01:39:34.791+05:30  WARN 5788 --- [finflow] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: PostgreSQL 18.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2026-02-14T01:39:34.904+05:30  INFO 5788 --- [finflow] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 6 migrations (execution time 00:00.077s)
+2026-02-14T01:39:34.932+05:30  INFO 5788 --- [finflow] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 6
+2026-02-14T01:39:34.941+05:30  INFO 5788 --- [finflow] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-02-14T01:39:35.278+05:30  INFO 5788 --- [finflow] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-14T01:39:35.506+05:30  INFO 5788 --- [finflow] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-14T01:39:35.654+05:30  INFO 5788 --- [finflow] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-14T01:39:36.165+05:30  INFO 5788 --- [finflow] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-14T01:39:37.706+05:30  INFO 5788 --- [finflow] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-14T01:39:37.767+05:30  INFO 5788 --- [finflow] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-14T01:39:38.730+05:30  INFO 5788 --- [finflow] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+WARNING: Running in DEV profile
+2026-02-14T01:39:39.718+05:30  INFO 5788 --- [finflow] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14T01:39:39.813+05:30  INFO 5788 --- [finflow] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bd99de6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1069cbf2, org.springframework.security.web.context.SecurityContextHolderFilter@53b0fbf6, org.springframework.security.web.header.HeaderWriterFilter@476a0071, org.springframework.web.filter.CorsFilter@31ad368a, org.springframework.security.web.authentication.logout.LogoutFilter@79200f8, com.company.finflow.tenant.context.TenantFilter@3726fc3b, com.company.finflow.security.jwt.JwtAuthenticationFilter@794cd751, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50f95c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a2763f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11f2be38, org.springframework.security.web.session.SessionManagementFilter@7dd6aa3e, org.springframework.security.web.access.ExceptionTranslationFilter@4b0393ee, org.springframework.security.web.access.intercept.AuthorizationFilter@3ed0e816]
+2026-02-14T01:39:40.495+05:30  INFO 5788 --- [finflow] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-02-14T01:39:40.517+05:30  INFO 5788 --- [finflow] [           main] com.company.finflow.FinflowApplication   : Started FinflowApplication in 10.704 seconds (process running for 11.222)
+2026-02-14T01:39:40.940+05:30  INFO 5788 --- [finflow] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-14T01:39:40.941+05:30  INFO 5788 --- [finflow] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-14T01:39:40.943+05:30  INFO 5788 --- [finflow] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
